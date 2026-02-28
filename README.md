@@ -64,48 +64,6 @@ src/
 
 ---
 
-## 📡 API Documentation
-
-### 🔑 Authentication APIs
-
-#### Register User
-
-POST `/api/auth/register`
-
-Request Body:
-
-```json
-{
-  "name": "User",
-  "email": "user@example.com",
-  "password": "123456"
-}
-```
-
----
-
-#### Login User
-
-POST `/api/auth/login`
-
-Request Body:
-
-```json
-{
-  "email": "user@example.com",
-  "password": "123456"
-}
-```
-
-Response:
-
-```json
-{
-  "token": "jwt_token_here"
-}
-```
-
----
 
 ### 💰 Transaction APIs
 
@@ -260,11 +218,7 @@ http://localhost:5000
 
 ---
 
-## 🌐 Deployment Link (Render)
 
-👉 https://your-backend-link.onrender.com
-
----
 
 ## 🧪 Testing
 
